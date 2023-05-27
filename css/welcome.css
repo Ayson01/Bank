@@ -1,0 +1,38 @@
+body {
+    /* background-image: url(../../back2.jpg); */
+    background-image: 
+        url(../../back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    
+} 
+
+.deposit-btn, .transfer-btn, .withdraw-btn, .deposit-btn
+ {
+    background-color: #0a4dda;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    /* width: 50%; */ width: fit-content;
+    /* margin: auto; margin: */
+    opacity: 0.8;
+    border-radius: 9%;
+}
+
+.sub2 {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    /* width: 50%; */
+    margin: auto;
+    opacity: 0.8;
+    border-radius: 5%;
+}
+
+.head1, .head2 {
+    color: black;
+}

@@ -1,0 +1,166 @@
+  .head{
+    color: blue;
+    
+  }
+
+  .loghead{
+    color: white;
+  }
+
+  *{
+    box-sizing: border-box;
+}
+
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+    text-align:justify;
+
+    /* width: 100%;
+    padding: 15px;
+    margin: 6px 0px 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke; */
+  }
+  
+  input {
+    width: 200px;
+    margin-bottom: 10px;
+
+    width: 100%;
+    padding: 15px;
+    margin: 6px 0px 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+  }
+  
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: black;
+  }
+
+ .accountType{
+    display: block;
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: black;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+    
+  }
+  
+  /* Create a custom radio button */
+  .radiocheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #b8b1b1;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .radiocheck {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .radiocheck {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .radiocheck:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .radiocheck:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .submit{
+    background-color: blue ;
+    color: white;
+    border-color: transparent;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: left; */
+    cursor: pointer;
+
+    width: 100%;
+    padding: 15px;
+    margin: 6px 0px 22px 0;
+    display: inline-block;
+    border: none;
+    /* border-radius: 1%; */
+    background: blue;
+  }
+
+.logbody{
+  background-image: url(/back1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+}
+
+
+
+/* .img1 img{
+  width: 50%;
+  height: 50%;
+  margin-bottom: 50%;
+}
+.img1{
+  display: flex;
+  flex-direction: row;
+  padding-left: 50%;
+  margin-bottom: 150%;
+} */

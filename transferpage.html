@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/transfer.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+            <h1 class="transfer1">Transfer page</h1>
+
+            <h1>ENTER DESTINATION DETAILS</h1>
+            <hr>
+
+            <label for="bn"><b>Bank Name</b></label>
+            <input type="text" placeholder="Enter Bank Name" name='bn' id='bn' required/>  
+
+            <label for="acct"><b>Account Number</b></label>
+            <input type="number" placeholder="Enter Account Number" name='acct' id='acct' required/>  
+
+            <label for="amnt"><b>Amount</b></label>
+            <input type="number" placeholder="Enter Amount" name='amnt' id='amnt' required />
+
+            <label for="pin"><b>Transaction Pin</b></label>
+            <input type="password" placeholder="Enter Pin" name='pin' id='pin' minlength="4" required />
+
+            <hr/>
+            <div class="btn-container">
+                <button class='sendbtn' type="submit">Transfer</button>
+                <button class='cancelbtn'>Cancel</button>
+                
+            </div>
+        </div>
+    </form>
+     <div class="user2">
+        <h2 class="customer1"> Customer2 Full Name</h2> <br>
+            <h2 class="user1-text"> Your Current Balance is <br> $ <span id="bal1">0</span></h2> <br>
+    </div>  <br>
+    
+    <div class="user1">
+        <h2 class="customer1"> Customer Full Name</h2> <br>
+            <h2 class="user1-text"> Your Current Balance is <br> $ <span id="bal1">0</span></h2> <br>
+    </div>
+
+
+    <!-- <div class="user1">
+
+    <label for="">
+        <p>Customer's Name: <span id="userName">User_Name</span> </p> 
+        <p> Bank Name: Hay's Bank</p>
+        <p>Account Number: <span id="userAcc">1111111111</span></p>
+        <p>Amount in account: $ <span id="userBalance"> 0</span></p>
+
+        </label>
+    </div> -->
+      <script src="dist/bank.js"></script> 
+</body>
+</html>
+
+<!-- const newAccount = new Account("AYBank", "Ayson", 1212, "123456789"); -->
+
+<!-- <label for="recipient-account-number">Beneficiary Account Number:</label>
+<input type="text" id="recipient-account-number"><br>
+
+<label for="recipient-account-name">Beneficiary Account Name:</label>
+<input type="text" id="recipient-account-name"><br>
+
+<label for="amount"> Transfer Amount:</label>
+<input type="number" id="amount" required><br>
+
+<label for="pin">Pin:</label>
+    <input type="password" id="password" name="password" minlength="4"  value="" required /><br>
+
+    <button class="transfer-btn">transfer</button> -->
+

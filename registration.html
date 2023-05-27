@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/styles2.css">
+</head>
+<body>
+  <h2 class="head">Customer Registration Details</h2>
+
+<form action="welcomepage.html">
+  <!-- <form action="/welcomepage.html"> -->
+    <!-- <label for="bank-name">Bank Name:</label>
+    <input type="text" id="bank-name" required><br> -->
+
+    <label for="owner">Enter Full Name:</label>
+    <input type="text" id="owner" required/><br>
+
+    <label for="phone-number">Phone Number:</label>
+    <input type="number" id="phone-number" maxlength="14" value="" required /><br>
+
+    <label for="house-address">Enter House Address:</label>
+    <input type="text" id="house-address" required /><br>
+
+    <p class="accountType">Choose Account Type</p>
+    
+    <label class="container"> Savings Account
+        <input type="radio">
+        <span class="radiocheck"></span>
+      </label>
+
+    <label class="container"> Current Account
+        <input type="radio">
+        <span class="radiocheck"></span>
+      </label>
+
+      <label class="container"> Domicilliary Account
+        <input type="radio">
+        <span class="radiocheck"></span>
+      </label>
+
+      <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="" required /> <br>
+
+      <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" value="" required /><br>
+
+      <button class="submit" onclick={mm()}>Submit</button>
+
+    <!-- <radio class="box1">Savings</radio>
+    <button class ="savings-btn">Deposit</button>
+    <button class ="current-btn">Withdraw</button>
+    <button class ="transfer-btn">Transfer</button> -->
+    
+    <!-- <button type="button" id="deposit-btn">Deposit</button>
+    <button type="button" id="withdraw-btn">Withdraw</button>
+    <button type="button" id="transfer-btn">Transfer</button> -->
+  </form>
+
+  <!-- <div id="message"></div>
+</div> -->
+<!-- <div class="img1">
+  <img src="back4.jpg" alt="">
+</div> -->
+
+<script src="dist/bank.js"></script>
+
+
+</body>
+</html>
+

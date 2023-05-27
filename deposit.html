@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/transfer.css">
+  <title>Document</title>
+</head>
+<body>
+
+<h1 class="deposit1">Deposit page</h1>
+<h2 class="customer1"> Customer Name</h2> <br>
+<h2> Your Current Balance is $ <span id="bal1">200</span></h2> <br> <br>
+
+<label for="deposit-amt">Deposit Amount:</label>
+    <input type="number" id="deposit-amt" required><br>
+
+    <label for="pin">Pin:</label>
+    <input type="password" id="password" name="password" minlength="4"  value="" required /><br>
+
+  <button id="deposit-btn">Deposit</button>
+  <!-- <button class = "deposit-btn"> Deposit </button> -->
+
+  <script src="dist/bank.js"></script>
+</body>
+</html>

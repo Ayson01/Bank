@@ -1,0 +1,76 @@
+/* button.but1 {
+    background-color: blue;
+    border-color: transparent;
+    padding: 5 rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+.sub11{
+  color: blue;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+body{
+  background-image: "l1.png";
+}
+.head1{
+    background-color: blue;
+    color: white;
+    border-radius: 0.3rem
+    
+}
+
+form{
+    color: blue;
+}
+
+button.sub2, button.deposit-btn, button.transfer-btn, button.withdraw-btn {
+    background-color: blue;
+    border-color: transparent;
+    border-radius : 0.2rem ;
+    padding: 0.3rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-left: 2rem;
+    /* margin-left: 5rem */
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
